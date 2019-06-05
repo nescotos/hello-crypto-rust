@@ -18,6 +18,8 @@ fn main() {
             crypto::key_gen(),
         "sign" =>
             crypto::sign_content(args),
+        "verify" =>
+            crypto::verify_content(args),
         _ => println!("Unrecognized command: {:?}", command)
     }
 }

@@ -17,5 +17,7 @@ This project is under construction by the moment!
 >` cargo run keygen`
 - Sign a Message:
 >` cargo run sign <PrivateKey> <Message>`
+- Verify a Signature
+>` cargo run verify <PrivateKey> <Message> <Signature>`
 - **Coming Up** Mine Transaction:
 >` cargo run mine <PrivateKey> <Message> <Difficulty>`

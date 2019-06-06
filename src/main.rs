@@ -20,6 +20,8 @@ fn main() {
             crypto::sign_content(args),
         "verify" =>
             crypto::verify_content(args),
+        "mine" =>
+            crypto::mine_content(args),
         _ => println!("Unrecognized command: {:?}", command)
     }
 }
